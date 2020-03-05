@@ -1,0 +1,59 @@
+<style>
+        img{
+            height: 175px;
+            width: auto;
+            border:3px solid gray;
+            background-color: white;
+            border-radius: 10%;
+            transition-duration: width 2s;
+        }
+        #codingExamples img{  
+            border-radius: 50%;
+            float: right;
+            margin-left: 20px;
+            margin-top: -5%;
+        }
+        img:hover{
+            width: 100%;
+            height: auto;
+        }
+        #codingExamples img:hover{
+            height: 175px;
+            width: auto;
+        }
+        section{
+            padding: 6% 3%;
+            border-bottom: 3px solid gray;
+        }
+        div{
+            padding-top: 3%;
+            margin: 0% 20%;
+        }
+        #bio{
+            background-color:darkslategray;
+            color: white;
+            margin: 0%;
+            padding: 2%;
+        }
+        #bio h1{
+            border-bottom: 3px solid white;
+        }
+        h1{
+            border-bottom: 3px solid black;
+        }
+        p{
+            font-size: 150%;
+            margin: 1em 0em;
+        }
+        a{
+            text-decoration: none;
+            background-color: darkslategray;
+            color:white;
+            padding: 2%;
+        }
+        a:hover{
+            color:darkslategray;
+            background-color: lightgray;
+            text-decoration: none;
+        }
+    </style>
